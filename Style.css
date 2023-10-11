@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster Two', cursive;
+}
+body{
+    background: rgb(247, 222, 192);
+}
+.quote-box{
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+.quote-box h2{
+    font-size: 32px;
+    font-weight: 250;
+    margin-bottom: 40px;
+    position: relative;
+}
+.quote-box h2::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(237, 179, 108);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.quote-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.quote-box blockquote::before, .quote-box blockquote::after{
+    content: '"';
+}
+.quote-box span{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(82, 47, 4);
+    float: right;
+    position: relative;
+}
+.quote-box span::before{
+    content: '';
+    width: 18px;
+    height: 3px;
+    background: rgb(237, 179, 108);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+.quote-box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quote-box button{
+    background: rgb(237, 179, 108);
+    font-size: 22px;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px sold rgb(237, 179, 108);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.quote-box button img{
+    width: 35px;
+    margin-right: 10px;
+}
+.quote-box button:nth-child(2){
+    background: transparent;
+    color:rgb(82, 47, 4);
+}
+
+@media (max-width: 400px) {
+    .quote-box{
+        width: 75%;
+        padding: 40x;
+        }
+    .quote-box h2{
+        font-size: 28px;
+        font-weight: 200;
+    }
+    .quote-box blockquote{
+        font-size: 20px;
+        min-height: 100px;
+    }
+    .quote-box span{
+        font-size: 15px;
+    }
+    .quote-box button{
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+    }
+    .quote-box button img{
+        width: 28px;
+        margin-right: 5px;
+    }
+}
