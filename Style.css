@@ -106,13 +106,13 @@ body{
         font-size: 15px;
     }
     .quote-box button{
-        font-size: 14px;
+        font-size: 12px;
         width: 100px;
         height: 40px;
         margin: 10px;
     }
     .quote-box button img{
-        width: 25px;
+        width: 22px;
         margin-right: 5px;
     }
 }
