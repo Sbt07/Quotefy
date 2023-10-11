@@ -5,7 +5,7 @@
     font-family: 'Lobster Two', cursive;
 }
 body{
-    background: rgb(247, 222, 192);
+    background: #eae0ee;
 }
 .quote-box{
     background: #fff;
@@ -30,7 +30,7 @@ body{
     width: 75px;
     height: 3px;
     border-radius: 3px;
-    background: rgb(237, 179, 108);
+    background: #c08cd8;
     position: absolute;
     bottom: -10px;
     left: 50%;
@@ -47,7 +47,7 @@ body{
     display: block;
     margin-top: 10px;
     font-size: 20px;
-    color: rgb(82, 47, 4);
+    color: #5c2376;
     float: right;
     position: relative;
 }
@@ -55,7 +55,7 @@ body{
     content: '';
     width: 18px;
     height: 3px;
-    background: rgb(237, 179, 108);
+    background: #c08cd8;
     position: absolute;
     top: 50%;
     left: -30px;
@@ -67,11 +67,11 @@ body{
     justify-content: center;
 }
 .quote-box button{
-    background: rgb(237, 179, 108);
+    background: #d0a4e5;
     font-size: 22px;
     color: #fff;
     border-radius: 25px;
-    border: 1px sold rgb(237, 179, 108);
+    border: 1px sold #c08cd8;
     width: 150px;
     height: 50px;
     display: flex;
@@ -86,7 +86,7 @@ body{
 }
 .quote-box button:nth-child(2){
     background: transparent;
-    color:rgb(82, 47, 4);
+    color:#5c2376;
 }
 
 @media (max-width: 400px) {
@@ -106,13 +106,13 @@ body{
         font-size: 15px;
     }
     .quote-box button{
-        font-size: 12px;
+        font-size: 14px;
         width: 100px;
         height: 40px;
         margin: 10px;
     }
     .quote-box button img{
-        width: 22px;
+        width: 25px;
         margin-right: 5px;
     }
 }
